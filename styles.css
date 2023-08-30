@@ -1,77 +1,44 @@
-/*  your css code here. If applicable */
-/*  your css code here. If applicable */
-#body{
-    background-color: #f5f5f5;
-    width: 100vw;
-    height: 100vw;
-    flex-wrap: wrap;
-	font-family
-    
-}
-#page{
-    display: flex;
-    justify-content:flex-start;
-}
-    
-#header{
-    background-color: #011e29;
-    text-align: center;
-    color: white;
-    position:sticky;
-    top:0;
-    padding: 20px;
-    margin: 5px;
-    margin-top: 10px;
-}
-#articels{
-width: 20vw;
-height: 20vw;
-border: 1px solid white;
-border-radius: 10px;
-background-color: white;
-margin: 5px;
-display: inline-block;
-}
-#articels>h3{
-	text-
-}
-#para{
-    display: inline-block;
-    width: 50vw;
-    height: 50vh;
-    border: 1px solid white;
-    border-radius: 10px;
-background-color: white;
-margin: 5px;
-}
-#para>h2{
-    text-align: center;
-    text-align: justify;
-}
-#image{
-    width: 30vw;
-    height: 80vh;
-    border: 1px solid white;
-    border-radius: 10px;
-background-color: white;
-margin: 5px;
-}
-#articels>h3{
-    text-align: center ;
-}
-#para>h2{
-    text-align: center;
+header{
+	color:white;
+	text-align:center;
+	padding:20px;
+	background-color:#011e29;
 }
 
-
-#image>h3{
-    text-align: center ;
+body{
+	background-color:#f5f5f5;
 }
-#image{
-    vertical-align:top;
-  display:inline-block;
-  background-color: white;
-  width:20%;
-  padding: 20px;
-  text-align: center;
-  border-radius:20px;
+
+.main{
+	display:flex;
+	gap:20px;
+}
+.latest-news{
+	background-color:white;
+	border-radius:10px;
+	width:25%;
+	height:300px;
+}
+
+.Main_Article{
+	background-color:white;
+	border-radius:10px;
+	width:40%;
+}
+.pictorial-news{
+	background-color:white;
+	border-radius:10px;
+	padding:5px;
+	width:25%;
+	text-align:center;
+}
+
+img{
+	width:200px;
+	justify-content:center;
+	
+}
+
+h3,h2{
+	text-align:center;
+}
